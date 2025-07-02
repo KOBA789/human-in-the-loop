@@ -14,3 +14,5 @@ rmcp = { git = "https://github.com/modelcontextprotocol/rust-sdk", rev = "b9d7d6
 rmcp-macros = { git = "https://github.com/modelcontextprotocol/rust-sdk", rev = "b9d7d61ebd6e8385cbc4aa105d4e25774fc1a59c" }
 schemars = "0.8"
 async-trait = "0.1.88"
+slack-morphism = { version = "2.1", features = ["axum"] }
+reqwest = { version = "0.12", features = ["json"] }
